@@ -12,6 +12,7 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.4rem;
   color: $white;
+  line-height: 1.5;
 }
 
 *,
@@ -25,3 +26,5 @@ body {
 @import "blocks/header";
 @import "blocks/conteiner";
 @import "blocks/page";
+@import "blocks/profile";
+@import "blocks/social";
