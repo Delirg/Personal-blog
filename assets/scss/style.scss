@@ -21,6 +21,11 @@ body {
   box-sizing: border-box;
 }
 
+a:active,
+a:focus {
+  outline: none;
+}
+
 @import "blocks/sidebar";
 @import "blocks/main";
 @import "blocks/header";
@@ -34,3 +39,6 @@ body {
 @import "blocks/subnav";
 @import "blocks/stories";
 @import "blocks/add-post";
+@import "blocks/post";
+@import "blocks/embed";
+@import "blocks/pagination";
